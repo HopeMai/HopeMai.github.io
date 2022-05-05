@@ -1,0 +1,112 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.row {
+  width: 100%
+}
+
+
+h1 {	
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+h2 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	size: 30%;
+	background-color: blue;
+	border: 3px solid black;
+	position: relative;
+	top: -3px;
+	right: -3px;
+}
+#chicken {
+	background-color: #D59898;
+}
+
+#beef {
+	background-color: #C14543;
+}
+
+#sushi {
+	background-color: #E5D198;
+}
+
+body {
+	background-color: white;
+	color: black;
+}
+
+ body > div {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+body > div > div {
+	background-color: white;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 30px;
+}
+
+body > div > div > div {
+padding: 0px;
+background-color: #A3A3A3;
+border: 3px solid black;
+}
+
+p {
+	padding: 10px;
+	clear: both;
+}
+
+/********** Name of a meal  **********/
+@media {
+	.col-meal-4{
+		float: right;
+	}
+	.col-meal-4 {
+		width: 33.33%
+	}
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+.col-lg-4 {
+    float: left;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (max-width: 991px) and (min-width: 768px) {
+	.col-md-6, .col-md-12 {
+		float: left;
+	}
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-md-12 {
+		width: 100%;
+	}
+}
+
+/********** Small devices only **********/
+
+@media (max-width: 767px) {
+	.col-sm-12 {
+		float: left;
+	}
+	.col-sm-12 {
+		width: 100%;
+	}
+}
